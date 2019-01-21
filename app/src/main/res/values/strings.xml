@@ -2,7 +2,6 @@
     <string name="app_name">Pixiv (beta)</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="viewpager_indicator">%1$d/%2$d</string>
     <string name="action_cloud">Cloud</string>
     <string name="action_delete_all">删除全部</string>
@@ -18,24 +17,23 @@
     <string name="author_works">作品</string>
     <string name="author_follow">关注: %s</string>
     <string name="author_followers">粉丝: %s</string>
-    <string name="string_author">画师：%s</string>
     <string name="string_author_detail">%s的个人主页</string>
     <string name="string_full_size">原图尺寸：%dpx*%dpx</string>
     <string name="string_create_time">投稿时间：%s</string>
-    <string name="string_viewd">%sK</string>
+    <string name="string_viewd" translatable="false">%sK</string>
     <string name="action_refresh">Refresh</string>
     <string name="action_search">搜索</string>
     <string name="action_settings">设置</string>
-    <string name="title_activity_scroll">ScrollActivity</string>
+    <string name="title_activity_scroll" translatable="false">ScrollActivity</string>
     <string name="ceuilisa">未登录</string>
     <string name="fatemercis">没有什么能展示的</string>
     <string name="main_card_title">Title goes here</string>
     <string name="main_card_title_short">Title</string>
     <string name="main_card_subtitle">Subtitle here</string>
     <string name="main_card_details">Details here</string>
-    <string name="tool_bar_title_one">Pixiv</string>
-    <string name="tool_bar_title_two">Hitokoto</string>
-    <string name="tool_bar_title_three">Mine</string>
+    <string name="tool_bar_title_one" translatable="false">Pixiv</string>
+    <string name="tool_bar_title_two" translatable="false">Hitokoto</string>
+    <string name="tool_bar_title_three" translatable="false">Mine</string>
     <string name="main_flat_button_1_clicked">Flat Button 1</string>
     <string name="main_flat_button_2_clicked">Flat Button 2</string>
     <string name="hitokoto_test_text">我手中的魔法，是守护挚爱的力量，是坚定这个信念所必须的力量，我一定会拯救你的，无论在何时、何地。</string>
@@ -46,10 +44,8 @@
     <string name="like_it">下一个</string>
     <string name="collect_it">收藏</string>
     <!-- String related to RecyclerView -->
-    <string name="title_activity_recycler_view">RecyclerView</string>
-    <string name="tv_recycler_item_1">Swipe down to refresh</string>
+    <string name="tv_recycler_item_1" translatable="false">Swipe down to refresh</string>
     <string name="tv_recycler_item_2">Swipe left or right to dismiss it</string>
-    <string name="tv_recycler_item_3">Drag up or down to move it and I will do some overhere</string>
     <string name="title_activity_share_view">Share View</string>
     <string name="share_view_press_it">You can press it</string>
     <string name="item_swipe_dismissed">Dismissed</string>
@@ -131,7 +127,7 @@
 
     <string name="title_activity_fullscreen">FullscreenActivity</string>
     <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="dummy_content">DUMMY CONTENT</string>
     <string name="finish_this">退出</string>
     <string name="more">More</string>
     <string name="don_t_care">Don\'t care</string>
@@ -169,8 +165,6 @@
     <string name="setting_string_two">账号信息, 长按复制</string>
     <string name="quit">退出登录</string>
     <string name="download_path">下载路径</string>
-    <string name="get_permission">添加可插拔SD卡读写权限</string>
-    <string name="permission_state">权限状态:</string>
     <string name="ceuilisa_detail">如果觉得这款软件不错的话，请开发者们喝杯咖啡吧~</string>
     <string name="pay_way">支付宝：13990845246</string>
     <string name="public_item">筛选</string>
@@ -180,7 +174,7 @@
     <string name="app_detail">KujouKaren Ver. %s/%d</string>
     <string name="sd_permission">如果你需要将图片下载至可插拔SD卡，请配置此选项，以便于对可插拔SD卡进行读写操作。点击上方蓝色文字开始配置，然后请选择可插拔SD卡的根目录，点击确认，使用过ES管理器的朋友一定记得这个步骤（注：图片默认下载至可插拔SD卡的某个文件夹之后，部分机型的相册可能不会更新下载的图片，只可以在文件管理器中查看，所以还是推荐朋友们把图片默认下载至不可移动的机身存储介质中）</string>
     <string name="clear_cache">清除缓存</string>
-    <string name="zero_size">0.0B</string>
+    <string name="zero_size" translatable="false">0.0B</string>
     <string name="has_sd_permission">已获取SD卡读写权限</string>
     <string name="no_sd_permission">无SD卡读写权限或无SD卡</string>
     <string name="followers">好P友: %d</string>
@@ -247,4 +241,20 @@
     <string name="create_success">创建成功，正在登录</string>
     <string name="username_nonnull">用户名不能为空</string>
     <string name="select_day">选择日期</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_recycler_view">RecyclerView</string>
+    <string name="tv_recycler_item_3">Drag up or down to move it and I will do some overhere</string>
+    <string name="get_permission">添加可插拔SD卡读写权限</string>
+    <string name="permission_state">权限状态:</string>
+    <string name="string_author">画师：%s</string>
+    <!-- <string name="collect_it">收藏</string> -->
+    <string name="tab_pixiv_title">推荐</string>
+    <string name="tab_rank_title">发现</string>
+    <string name="tab_hitokoto_title">一言</string>
+    <string name="tab_mine_title">我的</string>
+    <string name="settings_browsing">浏览</string>
+    <string name="settings_browsing_quality">图片画质</string>
+    <string name="settings_info_email">绑定邮箱</string>
+    <string name="main_popular">热门标签</string>
+    <string name="main_recommendations">为你推荐</string>
 </resources>
