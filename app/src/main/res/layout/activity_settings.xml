@@ -112,7 +112,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/sixteen_dip"
                 android:layout_marginTop="@dimen/sixteen_dip"
-                android:text="浏览"
+                android:text="@string/settings_browsing"
                 android:textColor="@color/colorPrimary"
                 android:textSize="13sp" />
 
@@ -128,7 +128,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/sixteen_dip"
                     android:layout_marginTop="@dimen/sixteen_dip"
-                    android:text="图片画质"
+                    android:text="@string/settings_browsing_quality"
                     android:textColor="#333333"
                     android:textSize="16sp" />
 
@@ -470,7 +470,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/sixteen_dip"
                     android:layout_marginTop="@dimen/sixteen_dip"
-                    android:text="绑定邮箱"
+                    android:text="@string/settings_info_email"
                     android:textColor="#333333"
                     android:textSize="@dimen/sixteen_sp" />
 
