@@ -23,7 +23,7 @@ import org.jetbrains.annotations.NotNull;
 
 public class FragmentPixiv extends BaseFragment {
 
-    private static final String[] TITLES = new String[]{"为你推荐", "热门标签"};
+    private static final String[] TITLES = new String[]{"Recommended", "Popular"};
 
     private BaseFragment[] mFragments;
 
