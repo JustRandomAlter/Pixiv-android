@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="hitokoto_type">
+        <item>All</item>
+        <item>Anime</item>
+        <item>Comic</item>
+        <item>Game</item>
+        <item>Novel</item>
+        <item>Internet</item>
+        <item>Original</item>
+        <item>Other</item>
+    </string-array>
+</resources>
